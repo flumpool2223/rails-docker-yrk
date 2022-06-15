@@ -23,7 +23,7 @@ src/storage/*
 !src/storage/.keep
 
 src/public/assets
-src.byebug_history
+src/.byebug_history
 
 # Ignore master key for decrypting credentials and more.
 src/config/master.key
