@@ -9,7 +9,7 @@ jobs:
       working_directory: ~/rails-docker-yrk/src
       steps:
         - checkout:
-            path: ~/rails_docker-yrk
+            path: ~/rails-docker-yrk
         - ruby/install-deps
 
   test:
@@ -28,7 +28,7 @@ jobs:
     working_directory: ~/rails-docker-yrk/src
     steps:
       - checkout:
-          path: ~/rails_docker-yrk
+          path: ~/rails-docker-yrk
       - ruby/install-deps
       - run:
           name: Database setup
